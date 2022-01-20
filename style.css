@@ -1,0 +1,51 @@
+/* 
+ * Style for Hello World
+ * By: Joshua Sadule
+ */
+
+html {
+  min-height: 99vh;
+}
+
+#main div.text {
+  position: fixed;
+  top: 40vh;
+  left: 0vw;
+  width: 100vw;
+  display: block;
+  text-align: center;
+  transform: translate(0%, -50%);
+}
+
+#footer .bg {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  left: 0vw;
+  height: 150px;
+  border: none;
+  
+}
+
+#main .text h1 {
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  margin: 0;
+}
+
+#main .text p {
+  font-family: monospace;
+  color: #aaa;
+}
+
+#footer div.l1 { 
+  background: linear-gradient(90deg, #eefff8, #eef8ff, #ffdedf);
+  z-index: -2;
+}
+
+#footer div.l2 {
+  z-index: -1;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 255), rgba(255, 255, 255, 0)); 
+}
